@@ -7,8 +7,9 @@ import { stats } from './stats'
 
 function App() {
 
+  const p = (stats.closed / stats.all) * 100
   const state = {
-    percent: (stats.closed / stats.all) * 100
+    percent: Math.round((p + Number.EPSILON) * 100) / 100
   }
 
   return (
