@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "dependencies": {
+    "react-sweet-progress": "^1.1.2"
+  }
+}
