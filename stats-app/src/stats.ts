@@ -1,4 +1,1 @@
-export const stats = {
-    all : 40,
-    closed: 13
-}
+export const stats={ all:41, closed: 13}
